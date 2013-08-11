@@ -29,7 +29,7 @@ In Global.asax.cs add following lines
   {
     if (Request.IsLocal)
     {
-      MiniProfiler.Start();
+      MiniProfiler.Start(); 
     } 
   }
   ```
